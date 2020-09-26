@@ -45,6 +45,8 @@ project (ConsoleGame)
 set(SRC_LIST
 	src/ConsoleGame.hpp
 	src/ConsoleGame.cpp
+	src/Character.hpp
+	src/Character.cpp
 )
 
 include_directories(src)
@@ -58,6 +60,7 @@ else (UNIX)
 endif (UNIX)
 
 set(TEST_SRC_LIST
+	test/CharacterTests.cpp
     test/test_main.cpp
 )
 
