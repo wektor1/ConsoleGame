@@ -49,6 +49,8 @@ set(SRC_LIST
 	src/Character.cpp
 	src/Object.cpp
 	src/Object.hpp
+	src/GrassObject.hpp
+	src/GrassObject.cpp
 )
 
 include_directories(src)
@@ -63,6 +65,7 @@ endif (UNIX)
 
 set(TEST_SRC_LIST
 	test/CharacterTests.cpp
+	test/GrassObjectTests.cpp
     test/test_main.cpp
 )
 
