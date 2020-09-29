@@ -47,6 +47,8 @@ set(SRC_LIST
 	src/ConsoleGame.cpp
 	src/Character.hpp
 	src/Character.cpp
+	src/Object.cpp
+	src/Object.hpp
 )
 
 include_directories(src)
