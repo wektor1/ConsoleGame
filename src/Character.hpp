@@ -6,4 +6,5 @@ class Character {
   Character(char visual);
   ~Character();
   char getVisual();
+  void setVisual(char visual);
 };

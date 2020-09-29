@@ -7,3 +7,7 @@ Character::~Character() {}
 char Character::getVisual() {
   return m_visual;
 }
+
+void Character::setVisual(char visual) {
+  m_visual = visual;
+}
