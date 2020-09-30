@@ -10,7 +10,7 @@ coverage:
                 enabled: yes
                 target: auto
 
-                threshhold: 1%
+                threshhold: 2%
                 if_not_found: success
                 if_ci_failed: error
             patch:
